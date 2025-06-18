@@ -680,7 +680,7 @@ footer ul li{
     background: rgba(0, 0, 0, 0.4);
     border-radius: 1rem;
     transition: all 0.3s ease-in-out;
-    text-shadow: none;
+    text-shadow: 0 0 5px var(--main-color), 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .bio-text blockquote.glow-quote:hover {
