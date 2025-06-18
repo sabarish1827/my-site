@@ -159,7 +159,7 @@ span{
 
 .social-icons a:hover{
     color: var(--text-color);
-    transform: scale(1.3) translateY(-5);
+    transform: scale(1.3) translateY(-5px);
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
 }
@@ -664,4 +664,26 @@ footer ul li{
     .skills-container{
         grid-template-columns: repeat(1, 1fr);
     }
+}
+.bio-text {
+    max-width: 1000px;
+}
+
+.bio-text blockquote.glow-quote {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3rem 0;
+    padding: 1.5rem 2rem;
+    color: var(--main-color);
+    border-left: 4px solid var(--main-color);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+    text-shadow: none;
+}
+
+.bio-text blockquote.glow-quote:hover {
+    box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
+    text-shadow: 0 0 10px var(--main-color);
 }
